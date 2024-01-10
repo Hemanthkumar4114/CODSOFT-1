@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    body{
+      background: linear-gradient(to right,purple,pink);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: white;
+
+    }
+    .nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+
+    }
+    
+    .nav .contact{
+      padding: 10px 20px;
+      border: 2px solid white;
+      border-radius: 5px;
+
+    }
+    .content{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 50px;
+
+    }
+    .content .text{
+      width: 40%;
+
+    }
+    .content .text h1{
+      font-size: 36px;
+      font-weight: bold;
+
+    }
+    .content .text p{
+      font-size: 18px;
+      margin: 20px 0;
+
+    }
+    .content .text .form{
+      display: flex;
+      align-items: center;
+
+    }
+    .content .text .form input{
+      width: 70%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+
+    }
+    .content .text .form button{
+      width: 20%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background:purple;
+      color: white;
+    }
+    .content .image{
+      width: 40%;
+      height: 400px;
+      background: url(images.jpeg);
+
+    }
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px;
+
+    }
+    .footer .rating{
+      display: flex;
+      align-items: center;
+    }
+    .footer .rating .stars{
+      width: 100px;
+      height: 20px;
+      background: url("stars.png");
+    }
+    .footer .rating .reviews{
+      margin-left: 10px;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div class="contact">Contact</div>
+  </div>
+  <div class="content">
+    <div  class="text">
+      <h1>Thought-Provoking Heading</h1>
+      <p>A quick value proposition that will make your visitors want to click on or sign up for your offer.</p>
+      <div class="form">
+        <input type="email" placeholder="enter your email">
+        <button>Sign Up</button>
+      </div>
+    </div>
+    <div class="image"></div>
+
+  </div>
+  <div class="footer">
+    <div class="rating">
+      <div class="stars"></div>
+      <div class="reviews">100K+ Reviews</div>
+    </div>
+  </div>
+</body>
+</html>
